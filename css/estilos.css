@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#proyectos {
+    background-image: url("../img/fondo-proyectos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#contacto,
+#inicio {
+    background-image: url("../img/fondo-contacto.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #E20000;
+}
+
+p {
+    color: #6a6a6a;
+}
+
+.btn-blanco {
+    background-color: white;
+    color: #370a6d;
+}
+
+.btn-blanco:hover {
+    color: white;
+    background-color: #370a6d;
+}
+
+nav .active {
+    border-radius: 20px;
+    border: 1px solid #E20000;
+}
+
+
+/*index*/
+
+#inicio .div-cohete {
+    height: 410px;
+}
+
+#inicio .cohete {
+    height: 400px;
+}
+
+#inicio .cohete:hover {
+    height: 410px;
+}
+
+#inicio .input-home p {
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.btnn {
+    color: #370a6d;
+    background-color: white;
+    border-radius: 50px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.btnn:hover {
+    color: white;
+    background-color: #370a6d;
+    border: none;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .45)!important;
+}
+
+
+/*inicio proyecto*/
+
+#proyectos h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.color-h2 {
+    background: rgba(184, 37, 20, 1);
+    background: -moz-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184, 37, 20, 1)), color-stop(47%, rgba(214, 52, 30, 1)), color-stop(70%, rgba(240, 47, 23, 1)), color-stop(100%, rgba(240, 47, 23, 1)));
+    background: -webkit-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -o-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1);
+}
+
+#proyectos img {
+    height: 210px;
+}
+
+#proyectos .card {
+    height: 130px;
+    border: none;
+    background-color: white;
+}
+
+#proyectos .btn-rojo {
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.veras a :hover {
+    background-color: #48b948;
+    color: white;
+}
+
+#proyectos .link-rojo {
+    color: red;
+}
+
+
+/*boton mi cv*/
+
+.btn-rojo-cv {
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+}
+
+.d-inline-cv :hover {
+    background-color: #370a6d;
+    color: white;
+}
+
+
+/*termina mi cv*/
+
+
+/*inicia-sombre mi*/
+
+.color-gradiente {
+    background: rgba(184, 37, 20, 1);
+    background: -moz-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184, 37, 20, 1)), color-stop(47%, rgba(214, 52, 30, 1)), color-stop(70%, rgba(240, 47, 23, 1)), color-stop(100%, rgba(240, 47, 23, 1)));
+    background: -webkit-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+}
+
+h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
+
+#sobre-mi .card {
+    height: 182px;
+}
+
+.btn-rojo-msj {
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+}
+
+.btn-msj :hover {
+    background-color: #370a6d;
+    color: white;
+}
+
+
+/*Termina sobre-mi*/
+
+.btn-whatsapp {
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.btn-whatsapp a {
+    color: white !important;
+}
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer .fa-github {
+    font-size: 30px;
+    color: white;
+}
+
+footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+#contacto footer {
+    color: white;
+}
+
+#contacto footer a {
+    color: white;
+}
+
+#contacto footer .fa-github {
+    font-size: 30px;
+    color: white;
+}
+
+#contacto footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+@media (max-width: 750px) {
+    #contacto,
+    #inicio {
+        background-image: url("../img/fondo-proyectos.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #proyectos {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #inicio p {
+        color: white;
+        font-size: 17px;
+        border: 1px white solid;
+        border-radius: 15px;
+        font-weight: 600;
+    }
+    #inicio p {
+        color: #E20000;
+        font-size: 16px;
+        border: 1px #E20000 solid;
+    }
+}
