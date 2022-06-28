@@ -180,6 +180,34 @@ h3 {
     color: white;
 }
 
+#experiencia h3,
+#formacion h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#experiencia h4,
+#formacion h4 {
+    font-size: 17px;
+}
+
+#experiencia h2,
+#experiencia h4 {
+    color: #370A6D;
+}
+
+#experiencia h5,
+#formacion h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+.h5,
+h5 {
+    font-size: 1.25rem;
+}
+
 
 /*Termina sobre-mi*/
 
@@ -264,13 +292,17 @@ footer .fa-linkedin-in {
         background-size: contain;
         background-repeat: no-repeat;
     }
+    /*
     #inicio p {
+    
         color: white;
         font-size: 17px;
         border: 1px white solid;
         border-radius: 15px;
         font-weight: 600;
     }
+
+    */
     #inicio p {
         color: #E20000;
         font-size: 16px;
