@@ -166,7 +166,7 @@ h3 {
 }
 
 #sobre-mi .card {
-    height: 182px;
+    height: 170px;
 }
 
 .btn-rojo-msj {
@@ -206,6 +206,21 @@ h3 {
 .h5,
 h5 {
     font-size: 1.25rem;
+}
+
+
+/*clase cris imagen*/
+
+.gris {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.gris:hover {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
 }
 
 
