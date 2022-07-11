@@ -114,23 +114,27 @@ nav .active {
     background-color: white;
 }
 
-#proyectos .btn-rojo {
-    border-radius: 15px;
-    background-color: red;
+.btn-rojos {
     color: white;
-    border-radius: 50px;
-    padding: 8px;
+    background-color: red;
+    border: 0px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.btn-rojos:hover {
+    color: white;
+    background-color: #370a6d;
+}
+
+.link-rojos {
+    color: red;
     text-decoration: none;
 }
 
-.veras a :hover {
-    background-color: #48b948;
-    color: white;
-}
 
-#proyectos .link-rojo {
-    color: red;
-}
+/*termina proyecto*/
 
 
 /*boton mi cv*/
@@ -244,7 +248,9 @@ h5 {
     color: white !important;
 }
 
+
 /* --- footer inicio---*/
+
 #inicio footer {
     color: white;
 }
@@ -271,11 +277,14 @@ h5 {
     margin: 0 8px;
 }
 
+
 /* ---termina footer inicio--- */
 
+
 /* ---footer proyecto--- */
+
 #proyectos footer {
-    color:red;
+    color: red;
 }
 
 #proyectos footer a {
@@ -300,11 +309,14 @@ h5 {
     margin: 0 8px;
 }
 
+
 /* termina footer proyectos*/
 
+
 /* ---footer sobre-mi---*/
+
 #sobre-mi footer {
-    color:red;
+    color: red;
 }
 
 #sobre-mi footer a {
@@ -328,9 +340,13 @@ h5 {
     border-radius: 80px;
     margin: 0 8px;
 }
+
+
 /* ---termina footer sobre-mi----*/
 
+
 /*  -- footer contacto-- */
+
 #contacto footer {
     color: white;
 }
@@ -356,6 +372,8 @@ h5 {
     border-radius: 80px;
     margin: 0 8px;
 }
+
+
 /* ---termina footer contacto---*/
 
 @media (max-width: 750px) {
@@ -385,22 +403,17 @@ h5 {
         font-size: 16px;
         border: 1px #E20000 solid;
     }
-
     /*cambiar footer*/
-
     #inicio footer {
-        color:red;
+        color: red;
     }
-    
     #inicio footer a {
         color: red;
     }
-    
     #inicio footer .fa-github {
         font-size: 30px;
         color: red;
     }
-    
     #inicio footer .fa-linkedin-in {
         color: white;
         background-color: red;
@@ -413,5 +426,4 @@ h5 {
         border-radius: 80px;
         margin: 0 8px;
     }
-
 }
