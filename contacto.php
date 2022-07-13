@@ -1,3 +1,6 @@
+<?php
+$pg="contacto";
+?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 
@@ -32,64 +35,49 @@
     <!--termina-->
 </head>
 
-<body id="inicio" class="d-flex flex-column h-100">
+<body id="contacto" class="d-flex flex-column h-100">
     <header class="container">
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1 active" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-inline-cv">
-                        <a href="" class="btn btn-rojo-cv">Descargar mi CV 
-                            <i class="fas fa-download"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </nav>
+        <?php include_once("menu.php");?>
     </header>
     <main class="container">
         <div class="row">
-            <div class="col-12 mt-4 text-center div-cohete">
-                <a href="proyectos.html"><img src="img/cohete.svg" alt="logo-cohete" class="cohete"></a>
-            </div>
-
-            <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
-                <div class="my-4 input-home">
-                    <p class="px-5 py-2"> Bienvenid@ a Informatica28</p>
-                </div>
-            </div>
-
-            <div class="col-12 text-center pt-3 pb-5">
-                <a href="proyectos.html" class="btnn shadow">Conoce mis proyectos</a>
+            <div class="col-12 pt-3 pb-5">
+                <h1>Contacto</h1>
             </div>
         </div>
-
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <p>Te invito a que te contactes enviándome un mensaje o bien por whatsapp.</p>
+            </div>
+            <div class="col-12 col-sm-6">
+                <form action="" method="POST">
+                    <div class="pb-3">
+                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control shadow">
+                    </div>
+                    <div class="pb-3">
+                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control shadow">
+                    </div>
+                    <div class="pb-3">
+                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Teléfono/Whatsapp" class="form-control shadow">
+                    </div>
+                    <div class="pb-3">
+                        <textarea name="txtMensaje" id="txtMensaje" class="form-control shadow" placeholder="Escribe aquí tu mensaje"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" id="btnEnviar" name="btnEnviar" class="btn btn-blanco px-4">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
-
     <footer class="container mt-auto pb-4">
+
         <div class="btn-whatsapp">
             <a href="https://web.whatsapp.com" target="_blank" title="">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
         </div>
-
+        
         <div class="row">
             <div class="col-sm-12 col-md-3">
                 <a href="https://github.com/rag28" target="_blank" title="Github">
