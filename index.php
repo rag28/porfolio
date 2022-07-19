@@ -54,7 +54,7 @@ $pg="inicio";
             </div>
 
             <div class="col-12 text-center pt-3 pb-5">
-                <a href="proyectos.html" class="btnn shadow">Conoce mis proyectos</a>
+                <a href="proyectos.php" class="btnn shadow">Conoce mis proyectos</a>
             </div>
         </div>
 
