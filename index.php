@@ -44,7 +44,7 @@ $pg="inicio";
     <main class="container">
         <div class="row">
             <div class="col-12 mt-4 text-center div-cohete">
-                <a href="proyectos.html"><img src="img/cohete.svg" alt="logo-cohete" class="cohete"></a>
+                <a href="proyectos.php"><img src="img/cohete.svg" alt="logo-cohete" class="cohete"></a>
             </div>
 
             <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
